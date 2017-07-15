@@ -1,0 +1,35 @@
+{
+  "name": "todolistrestapi",
+  "version": "1.0.0",
+  "description": "Random rest api test with node js and mongo db. Making a todo list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pokis/MongoRestApiTutorial.git"
+  },
+  "keywords": [
+    "mongo",
+    "nodejs",
+    "rest",
+    "restapi",
+    "api"
+  ],
+  "author": "Domantas Judeikis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pokis/MongoRestApiTutorial/issues"
+  },
+  "homepage": "https://github.com/Pokis/MongoRestApiTutorial#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3"
+  }
+}
